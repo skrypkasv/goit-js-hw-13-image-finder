@@ -6,6 +6,6 @@ export default function throwError(message) {
   error({
     text: message,
     type: 'info',
-    delay: 1000,
+    delay: 5000,
   });
 }
